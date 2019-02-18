@@ -1,7 +1,7 @@
 # swagger-client
 
 Swagger Petstore
-- API version: 1.0.0
+- API version: 2
 
 This is a sample Petstore server.  You can find  out more about Swagger at  [http://swagger.io](http://swagger.io) or on  [irc.freenode.net, #swagger](http://swagger.io/irc/). 
 
@@ -65,7 +65,7 @@ All URIs are relative to *https://virtserver.swaggerhub.com/daans/test/1.0.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*PetApi* | **addPet** | **POST** /pet | Add a new pet to the store
+*PetApi* | **addPet** | **POST** /pet | Add a new pet to the store 2
 *PetApi* | **deletePet** | **DELETE** /pet/{petId} | Deletes a pet
 *PetApi* | **findPetsByStatus** | **GET** /pet/findByStatus | Finds Pets by status
 *PetApi* | **findPetsByTags** | **GET** /pet/findByTags | Finds Pets by tags
